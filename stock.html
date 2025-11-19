@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Акции - BookLand</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/stock.css">
+</head>
+<body>
+    <header class="header">
+  <div class="container header-content">
+
+    <a href="index.html" class="logo">📚 BookLand</a>
+
+    <!-- Чекбокс для бургер-меню -->
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+    <label for="menu-toggle" class="menu-toggle">☰</label>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1>Актуальные акции</h1>
+                <p>Выгодные предложения только для вас!</p>
+            </div>
+        </section>
+
+        <section class="promo-section">
+            <div class="container">
+                <div class="promo-grid">
+                    <article class="promo-card">
+                        <div class="promo-header">
+                            <div class="promo-icon">🎁</div>
+                            <div class="promo-discount">-25%</div>
+                        </div>
+                        <div class="promo-body">
+                            <h3 class="promo-title">Скидка на бестселлеры</h3>
+                            <p class="promo-description">Получите скидку 25% на все книги из категории "Бестселлеры". Успейте купить самые популярные книги по выгодной цене!</p>
+                            <div class="promo-validity">⏰ До 30 ноября 2025</div>
+                            <a href="catalog.html" class="promo-btn">Перейти к покупкам</a>
+                        </div>
+                    </article>
+
+                    <article class="promo-card">
+                        <div class="promo-header">
+                            <div class="promo-icon">🚚</div>
+                            <div class="promo-discount">0₽</div>
+                        </div>
+                        <div class="promo-body">
+                            <h3 class="promo-title">Бесплатная доставка</h3>
+                            <p class="promo-description">При заказе от 7000 Тенге доставка абсолютно бесплатно по всему Казахстану. Экономьте на доставке!</p>
+                            <div class="promo-validity">⏰ Постоянная акция</div>
+                            <a href="catalog.html" class="promo-btn">Выбрать книги</a>
+                        </div>
+                    </article>
+
+                    <article class="promo-card">
+                        <div class="promo-header">
+                            <div class="promo-icon">⭐</div>
+                            <div class="promo-discount">+15%</div>
+                        </div>
+                        <div class="promo-body">
+                            <h3 class="promo-title">Бонусы за покупку</h3>
+                            <p class="promo-description">Получайте до 15% от суммы покупки в виде бонусов на бонусный счет. Используйте бонусы при следующих покупках!</p>
+                            <div class="promo-validity">⏰ Для всех покупателей</div>
+                            <a href="catalog.html" class="promo-btn">Начать копить</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="books-section">
+            <div class="container">
+                <h2 class="section-title">Книги по акции</h2>
+                <div class="books-grid">
+                    <article class="book-card">
+                        <div class="book-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+                            <img
+                                src="images catalog/8_8.webp"
+                                alt="Немой свидетель"
+                                class="book-cover"
+                            />
+                            <span class="discount-badge">-25%</span>
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">Немой свидетель</h3>
+                            <p class="book-author">Автор: Кристи А</p>
+                            <div class="price-section">
+                                <div class="prices">
+                                    <span class="old-price">4 500 ₸</span>
+                                    <span class="new-price">2 750 ₸</span>
+                                </div>
+                                <button class="add-to-cart">Купить</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="book-card">
+                        <div class="book-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+                            <img
+                                src="images catalog/5_1.webp"
+                                alt="Энциклопедия кухни"
+                                class="book-cover"
+                            />
+                            <span class="discount-badge">-15%</span>
+                        </div>  
+                        <div class="book-info">
+                            <h3 class="book-title">Большая энциклопедия кухни</h3>
+                            <p class="book-author">Автор: Эксмо</p>
+                            <div class="price-section">
+                                <div class="prices">
+                                    <span class="new-price">9 790 ₸</span>
+                                </div>
+                                <button class="add-to-cart">Купить</button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="book-card">
+                        <div class="book-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);">
+                            <img
+                                src="images catalog/1_1.webp"
+                                alt="Портрет Дориана Грея"
+                                class="book-cover"
+                            />
+                            <span class="discount-badge">-33%</span>
+                        </div>
+                        <div class="book-info">
+                            <h3 class="book-title">Портрет Дориана Грея</h3>
+                            <p class="book-author">Автор: Уайльд О</p>
+                            <div class="price-section">
+                                <div class="prices">
+                                    <span class="old-price">5 750 ₸</span>
+                                    <span class="new-price">2 350 ₸</span>
+                                </div>
+                                <button class="add-to-cart">Купить</button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>О магазине</h3>
+                    <ul>
+                        <li><a href="about.html">О нас</a></li>
+                        <li><a href="pay.html">Доставка и оплата</a></li>
+                        <li><a href="guarantees.html">Гарантии</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Покупателям</h3>
+                    <ul>
+                        <li><a href="catalog.html">Каталог книг</a></li>
+                        <li><a href="new.html">Новинки</a></li>
+                        <li><a href="stock.html">Акции</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контакты</h3>
+                    <ul>
+                        <li><a href="contacts.html">Связаться с нами</a></li>
+                        <li><a href="tel:+77777777777">+7 (777) 777-77-77</a></li>
+                        <li><a href="mailto:info@bookland.kz">info@bookland.kz</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 BookLand. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
