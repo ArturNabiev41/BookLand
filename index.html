@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BookLand - Интернет-магазин книг</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+  <div class="container header-content">
+
+    <a href="index.html" class="logo">📚 BookLand</a>
+
+    <!-- Чекбокс для бургер-меню -->
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+    <label for="menu-toggle" class="menu-toggle">☰</label>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog.html">Каталог</a></li>
+        <li><a href="about.html">О компании</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+    </nav>
+
+  </div>
+</header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="container">
+          <h1>Добро пожаловать в BookLand</h1>
+          <p>Откройте мир удивительных историй и знаний</p>
+          <a href="catalog.html" class="btn">Перейти в каталог</a>
+        </div>
+      </section>
+
+      <!-- PROMO SECTION -->
+      <section class="promo">
+        <div class="container">
+          <h2 class="section-title">Специальные предложения</h2>
+          <div class="promo-grid">
+            <div class="promo-card">
+              <div class="promo-icon">🎁</div>
+              <h3>Скидка 25%</h3>
+              <p>На все бестселлеры этого месяца</p>
+            </div>
+            <div class="promo-card">
+              <div class="promo-icon">🚚</div>
+              <h3>Бесплатная доставка</h3>
+              <p>При заказе от 25000 Тенге</p>
+            </div>
+            <div class="promo-card">
+              <div class="promo-icon">⭐</div>
+              <h3>Программа лояльности</h3>
+              <p>Накапливайте бонусы с каждой покупкой</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- NEW BOOKS SECTION -->
+      <section class="new-books">
+        <div class="container">
+          <h2 class="section-title">Новинки месяца</h2>
+          <div class="books-grid">
+            <div class="book-card">
+              <div class="book-image">
+                <img
+                  src="images index/isk.webp"
+                  alt="Искусство программирования"
+                />
+              </div>
+              <div class="book-info">
+                <h3 class="book-title">Искусство программирования</h3>
+                <p class="book-author">Автор: Дональд Кнут</p>
+                <div class="book-price">
+                  <span class="price">7 990 ₸</span>
+                  <button class="add-to-cart">В корзину</button>
+                </div>
+              </div>
+            </div>
+            <div class="book-card">
+              <div class="book-image">
+                <img src="images index/karman.jpg" alt="Счастливый карман" />
+              </div>
+              <div class="book-info">
+                <h3 class="book-title">Счастливый карман</h3>
+                <p class="book-author">Автор: Дэвид Кэмерон Джиканди</p>
+                <div class="book-price">
+                  <span class="price">4 179 ₸</span>
+                  <button class="add-to-cart">В корзину</button>
+                </div>
+              </div>
+            </div>
+            <div class="book-card">
+              <div class="book-image">
+                <img src="images index/priv.jpg" alt="Атомные привычки" />
+              </div>
+              <div class="book-info">
+                <h3 class="book-title">Атомные привычки</h3>
+                <p class="book-author">Автор: Джеймс Клир</p>
+                <div class="book-price">
+                  <span class="price">3 304 ₸</span>
+                  <button class="add-to-cart">В корзину</button>
+                </div>
+              </div>
+            </div>
+            <div class="book-card">
+              <div class="book-image">
+                <img src="images index/48z.jpg" alt="Атомные привычки" />
+              </div>
+              <div class="book-info">
+                <h3 class="book-title">48 законов власти</h3>
+                <p class="book-author">Автор: Роберт Грин</p>
+                <div class="book-price">
+                  <span class="price">5 374 ₸</span>
+                  <button class="add-to-cart">В корзину</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>О магазине</h3>
+            <ul>
+              <li><a href="about.html">О нас</a></li>
+              <li><a href="pay.html">Доставка и оплата</a></li>
+              <li><a href="guarantees.html">Гарантии</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Покупателям</h3>
+            <ul>
+              <li><a href="catalog.html">Каталог книг</a></li>
+              <li><a href="new.html">Новинки</a></li>
+              <li><a href="stock.html">Акции</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h3>Контакты</h3>
+            <ul>
+              <li><a href="contacts.html">Связаться с нами</a></li>
+              <li><a href="tel:+77777777777">+7 (777) 777-77-77</a></li>
+              <li><a href="mailto:info@bookland.kz">info@bookland.kz</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 BookLand. Все права защищены.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
